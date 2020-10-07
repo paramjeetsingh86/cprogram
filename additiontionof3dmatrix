@@ -1,0 +1,33 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{ 
+int x[3],y[3],z[3];
+int l[3],m3],n[3];
+int p[3],q[3],r[3];
+int i=0;
+cout<<"Enter the elements for matrix 1 :";
+for (i=0;i<3;i++)
+cin>>x[i];
+for (i=0;i<3;i++)
+cin>>y[i];
+for (i=0;i<3;i++)
+cin>>z[i];
+
+cout<<"Enter the elements for matrix 2 :";
+for (i=0;i<3;i++)
+cin>>l[i];
+for (i=0;i<3;i++)
+cin>>m[i];
+for (i=0;i<3;i++)
+cin>>n[i];
+
+for (i=0;i<3;i++)
+p[i]=l[i]+x[i];   
+  
+  cout<<"The final matrix after addition is : ";
+  for (i=0;i<3;i++)
+  cout<< p[i];
+  return 0;
+  }
